@@ -1,0 +1,64 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0; /* Light orange background */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff6f00; /* Deep orange */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Main container styles */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #ff6f00;
+    text-align: center;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Profile image styles */
+  .profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 50%; /* Makes the image circular */
+    border: 4px solid #ff6f00; /* Adds a deep orange border */
+    object-fit: cover; /* Ensures the image fits well within the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for a 3D effect */
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff6f00;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
